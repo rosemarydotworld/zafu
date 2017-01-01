@@ -1,0 +1,20 @@
+{
+  "name": "om",
+  "version": "1.0.0",
+  "description": "unobtrusive command line meditation timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liam Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "clear": "0.0.1",
+    "commander": "^2.9.0",
+    "death": "^1.0.0",
+    "play-sound": "^1.1.1"
+  },
+  "bin": {
+    "om": "index.js"
+  }
+}
