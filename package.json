@@ -1,6 +1,6 @@
 {
-  "name": "om",
-  "version": "1.0.0",
+  "name": "zafu",
+  "version": "0.0.2",
   "description": "unobtrusive command line meditation timer",
   "main": "index.js",
   "scripts": {
