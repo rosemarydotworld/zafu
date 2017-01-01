@@ -15,6 +15,6 @@
     "play-sound": "^1.1.1"
   },
   "bin": {
-    "om": "index.js"
+    "zafu": "index.js"
   }
 }
