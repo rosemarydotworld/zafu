@@ -1,12 +1,21 @@
 # zafu
 
-An unobtrusive command line meditation timer.
+## Installation
+`npm install -g zafu`
 
 ## Usage
-`$ zafu <minutes>`
+```
 
-## Options
-`--silent    Disables bell sound effect`
+  Usage: zafu [options] <minutes>
+
+  Simple command line meditation timer with a nice bell sound.
+
+  Options:
+
+    -h, --help    output usage information
+    -s, --silent  Silence the bell sound before and after the meditation
+
+```
 
 ## Credits
 Bell sound effect used under a Creative Commons license:
