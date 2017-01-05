@@ -4,7 +4,7 @@ const sound = './assets/bowl.mp3'
 module.exports = (silent) => {
   if(!silent) {
     player.play(sound, function(err) {
-      throw err
+      err && process.stdout.write('\x07');
     })
   }
 }
